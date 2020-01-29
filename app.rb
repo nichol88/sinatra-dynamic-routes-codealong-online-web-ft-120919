@@ -19,4 +19,6 @@ class App < Sinatra::Base
     "Goodbye, #{@user_name}."
   end
 
+  get '/:num1/:num2'
+
 end
